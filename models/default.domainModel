@@ -800,9 +800,9 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_FON34LB0Ee21Y7T7I4A-og" name="listarentidad" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_rfgv8LBxEe21Y7T7I4A-og" filter="FROM EventoNH as e WHERE e.Entidad.Identidad = :p_idEntidad" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PFmMsLB0Ee21Y7T7I4A-og" name="p_idEntidad" type="OID" typeObject="_kjhNMJqDEe2Mt9ByTi-N7g"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_nB5UILB8Ee21Y7T7I4A-og" name="asignarusuario" operationType="CustomTransaction" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_nB6iQLB8Ee21Y7T7I4A-og" name="p_oid" type="OID" typeObject="_rfgv8LBxEe21Y7T7I4A-og"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xEDVkLB8Ee21Y7T7I4A-og" name="usuario" type="Object" typeObject="_nCu8QJpwEe2Mt9ByTi-N7g"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_nB5UILB8Ee21Y7T7I4A-og" name="asignarusuario" operationType="Relationer" type="Void" relatedRol="_3bhZgLByEe21Y7T7I4A-og" customizedTransaction="true">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PbB2ML3SEe2uSOHjZNdSRA" name="p_Evento_OID" type="OID" typeObject="_rfgv8LBxEe21Y7T7I4A-og"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PbDrYL3SEe2uSOHjZNdSRA" name="p_usuarios_OIDs" type="OID" collectionType="List" typeObject="_nCu8QJpwEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_k6XB0LObEe2HlrZKG1EcsQ" name="obtenereventospista" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_rfgv8LBxEe21Y7T7I4A-og" filter="FROM EventoNH as e INNER JOIN e.Horarios as h INNER JOIN h.DiaSemana as d where e.Activo AND h.Pista.Idpista = :p_idPista AND h.Inicio = :p_fecha AND d.Iddiasemana = :p_idDiaSemana" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_0-Nf8LObEe2HlrZKG1EcsQ" name="p_idPista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
