@@ -35,6 +35,11 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>es.ua.dlsi.ooh.navigationalView.validation.NavigationalViewBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
@@ -43,5 +48,6 @@
 		<nature>org.eclipse.xtend.shared.ui.xtendXPandNature</nature>
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>es.ua.dlsi.ooh.conceptualView.validation.ConceptualViewNature</nature>
+		<nature>es.ua.dlsi.ooh.navigationalView.validation.NavigationalViewNature</nature>
 	</natures>
 </projectDescription>

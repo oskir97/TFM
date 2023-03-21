@@ -16,5 +16,8 @@ Require-Bundle:  org.apache.log4j,
  es.ua.dlsi.ooh.conceptualView.generator.xtext,
  es.ua.dlsi.ooh.conceptualView,
  es.ua.dlsi.ooh.conceptualView.generator,
- es.ua.dlsi.ooh.persistence.nHibernate.generator
+ es.ua.dlsi.ooh.persistence.nHibernate.generator,
+ es.ua.dlsi.ooh.navigationalView,
+ es.ua.dlsi.ooh.navigationalView.generator,
+ es.ua.dlsi.ooh.server.wcf.generator
 Bundle-RequiredExecutionEnvironment:  JavaSE-1.6
