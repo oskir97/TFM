@@ -132,7 +132,7 @@
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_0q7WoJp4Ee2Mt9ByTi-N7g"/>
       <AuthClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_nCu8QJpwEe2Mt9ByTi-N7g"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_mf4DoMjPEe2sPvna8E-tVg" name="Pista" originEnd="_KkfPcMjSEe2sPvna8E-tVg _QazOoMjqEe2sPvna8E-tVg _PNU5cMjrEe2sPvna8E-tVg _Z99NoMjvEe2sPvna8E-tVg _G-WosMjyEe2sPvna8E-tVg _rYryMOOVEe28S60omLFvhQ" targetEnd="_5HbNkMjPEe2sPvna8E-tVg">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_mf4DoMjPEe2sPvna8E-tVg" name="Pista" originEnd="_KkfPcMjSEe2sPvna8E-tVg _QazOoMjqEe2sPvna8E-tVg _PNU5cMjrEe2sPvna8E-tVg _Z99NoMjvEe2sPvna8E-tVg _G-WosMjyEe2sPvna8E-tVg _rYryMOOVEe28S60omLFvhQ" targetEnd="_5HbNkMjPEe2sPvna8E-tVg _6g_k8OQgEe2KfOXK_fnhkg">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_uXijcMjPEe2sPvna8E-tVg" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_LO5ygZp8Ee2Mt9ByTi-N7g"/>
       </navOperation>
@@ -196,7 +196,7 @@
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_5HbNkMjPEe2sPvna8E-tVg" name="obtenerPista" activationMode="Automatic" nodeOrigin="__TRt8MJPEe2zJtXZ1LWv4A" nodeTarget="_mf4DoMjPEe2sPvna8E-tVg">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_xAE4sJp8Ee2Mt9ByTi-N7g"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_E_njkMjQEe2sPvna8E-tVg" name="Horario" originEnd="_yuYtwMoVEe2sPvna8E-tVg" targetEnd="_KkfPcMjSEe2sPvna8E-tVg">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_E_njkMjQEe2sPvna8E-tVg" name="Horario" originEnd="_yuYtwMoVEe2sPvna8E-tVg _6g_k8OQgEe2KfOXK_fnhkg" targetEnd="_KkfPcMjSEe2sPvna8E-tVg _-V4L0OQgEe2KfOXK_fnhkg">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_H5ALgMjQEe2sPvna8E-tVg" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_v1Eq0ZtQEe2Mt9ByTi-N7g"/>
       </navOperation>
@@ -510,7 +510,7 @@
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_2q_rwMjtEe2sPvna8E-tVg" name="obtenerUsuarioCreador" activationMode="Automatic" nodeOrigin="__TRt8MJPEe2zJtXZ1LWv4A" nodeTarget="_ybLaIMJPEe2zJtXZ1LWv4A">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_MaIE8Zp7Ee2Mt9ByTi-N7g"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_QHAMEMjuEe2sPvna8E-tVg" name="Evento" originEnd="_cs8_8MjuEe2sPvna8E-tVg _runoUMjuEe2sPvna8E-tVg _vMbL8MjuEe2sPvna8E-tVg _Cn6UQMjvEe2sPvna8E-tVg" targetEnd="_aRTc4MjuEe2sPvna8E-tVg _mld9MMjuEe2sPvna8E-tVg _oko_oMjuEe2sPvna8E-tVg">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_QHAMEMjuEe2sPvna8E-tVg" name="Evento" originEnd="_cs8_8MjuEe2sPvna8E-tVg _runoUMjuEe2sPvna8E-tVg _vMbL8MjuEe2sPvna8E-tVg _Cn6UQMjvEe2sPvna8E-tVg _-V4L0OQgEe2KfOXK_fnhkg" targetEnd="_aRTc4MjuEe2sPvna8E-tVg _mld9MMjuEe2sPvna8E-tVg _oko_oMjuEe2sPvna8E-tVg">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_ToWL4MjuEe2sPvna8E-tVg" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_vEX90LBxEe21Y7T7I4A-og"/>
       </navOperation>
@@ -915,6 +915,12 @@
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_rYryMOOVEe28S60omLFvhQ" name="obtenerDeporte" activationMode="Automatic" nodeOrigin="_mf4DoMjPEe2sPvna8E-tVg" nodeTarget="_LYi2gOOVEe28S60omLFvhQ">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_AgSuIJtVEe2Mt9ByTi-N7g"/>
     </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_6g_k8OQgEe2KfOXK_fnhkg" name="obtenerPistaHorario" nodeOrigin="_E_njkMjQEe2sPvna8E-tVg" nodeTarget="_mf4DoMjPEe2sPvna8E-tVg">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_81e7MJtSEe2Mt9ByTi-N7g"/>
+    </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_-V4L0OQgEe2KfOXK_fnhkg" name="obtenerHorariosEvento" activationMode="Automatic" nodeOrigin="_QHAMEMjuEe2sPvna8E-tVg" nodeTarget="_E_njkMjQEe2sPvna8E-tVg">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_Hkwt8LBzEe21Y7T7I4A-og"/>
+    </navigationalElem>
     <conceptualModel xmi:type="es.ua.dlsi.ooh:ConceptualModel" href="default.domainModel#_j1cg4JpwEe2Mt9ByTi-N7g"/>
   </es.ua.dlsi.ooh.navigationalView:NavigationalModel>
   <notation:Diagram xmi:id="_tzSpAcJPEe2zJtXZ1LWv4A" type="NavigationalView" element="_tzSpAMJPEe2zJtXZ1LWv4A" name="default.navigationalModel" measurementUnit="Pixel">
@@ -1314,7 +1320,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_mf540cjPEe2sPvna8E-tVg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_mf540sjPEe2sPvna8E-tVg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_mf5408jPEe2sPvna8E-tVg" fillColor="12761756"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mf541MjPEe2sPvna8E-tVg" x="530" y="795" height="308"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mf541MjPEe2sPvna8E-tVg" x="510" y="465" height="308"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_E_pYwMjQEe2sPvna8E-tVg" type="2004" element="_E_njkMjQEe2sPvna8E-tVg">
       <children xmi:type="notation:DecorationNode" xmi:id="_E_pYxcjQEe2sPvna8E-tVg" type="5004"/>
@@ -2950,6 +2956,22 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_rY5NkeOVEe28S60omLFvhQ" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rY5NkuOVEe28S60omLFvhQ" points="[83, -38, -1070, 494]$[1157, -463, 4, 69]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rY6bsOOVEe28S60omLFvhQ" id="(0.5117647058823529,0.2305194805194805)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6hqTUOQgEe2KfOXK_fnhkg" type="4004" element="_6g_k8OQgEe2KfOXK_fnhkg" source="_E_pYwMjQEe2sPvna8E-tVg" target="_mf540MjPEe2sPvna8E-tVg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6hq6YOQgEe2KfOXK_fnhkg" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6hq6YeQgEe2KfOXK_fnhkg" y="-15"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6hqTUeQgEe2KfOXK_fnhkg" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6hqTUuQgEe2KfOXK_fnhkg" points="[59, -24, -450, 219]$[594, -183, 85, 60]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6htWoOQgEe2KfOXK_fnhkg" id="(0.41,0.14516129032258066)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-WDyAOQgEe2KfOXK_fnhkg" type="4004" element="_-V4L0OQgEe2KfOXK_fnhkg" source="_QHCoUMjuEe2sPvna8E-tVg" target="_E_pYwMjQEe2sPvna8E-tVg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-WDyA-QgEe2KfOXK_fnhkg" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-WDyBOQgEe2KfOXK_fnhkg" y="-15"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-WDyAeQgEe2KfOXK_fnhkg" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-WDyAuQgEe2KfOXK_fnhkg" points="[-80, 29, 1484, -551]$[-1573, 552, -9, -28]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-WFAIOQgEe2KfOXK_fnhkg" id="(0.31,0.15053763440860216)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

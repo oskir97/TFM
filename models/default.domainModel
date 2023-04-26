@@ -147,7 +147,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Qc52kMgdEe2eMPEROzSEjw" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Qc52kcgdEe2eMPEROzSEjw" name="p_inscripciones_OIDs" type="OID" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_PqxgEKvDEe2EG7knZ9DIJw" name="listarreservasusuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r INNER JOIN r.Usuario as u WHERE u.Idusuario = :p_idUsuario" automaticSynchronize="false" customized="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_PqxgEKvDEe2EG7knZ9DIJw" name="listarreservasusuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r INNER JOIN r.Usuario as u WHERE u.Idusuario = :p_idusuario" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_U0aUkKvdEe2EG7knZ9DIJw" name="p_idusuario" type="OID" typeObject="_nCu8QJpwEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ay_0cLFeEe25T5DOLUhIXg" name="obtenerinscripciones" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r INNER JOIN r.Inscripciones as i where r.Idreserva = :p_idReserva OR i.Partido.Idreserva = :p_idReserva" automaticSynchronize="false">
@@ -155,7 +155,7 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_bR9AULOfEe2HlrZKG1EcsQ" name="obtenerreservaspista" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r WHERE r.Fecha = :p_fecha AND not r.Cancelada AND r.Pista.Idpista = :p_idPista" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PaYf8LOgEe2HlrZKG1EcsQ" name="p_idPista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Q_dnYLOgEe2HlrZKG1EcsQ" name="p_fecha" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Q_dnYLOgEe2HlrZKG1EcsQ" name="p_fecha" type="Time"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_eJ5e8MgFEe2eMPEROzSEjw" name="cancelar" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_eJ5e8cgFEe2eMPEROzSEjw" name="p_oid" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
@@ -680,21 +680,21 @@
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_tBSUkJtQEe2Mt9ByTi-N7g" name="Horario" alias="Horario" asociationTarget="_CCcBgKJUEe2oH5BJfVRY9g _h1m48Ko7Ee24j6_kvUVfUA _Hku4wLBzEe21Y7T7I4A-og" associationOrigin="_81dGAJtSEe2Mt9ByTi-N7g">
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_v1Eq0ZtQEe2Mt9ByTi-N7g" name="crear" operationType="New" type="Object" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g" customized="true">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox64ULFcEe25T5DOLUhIXg" name="p_inicio" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox64UbFcEe25T5DOLUhIXg" name="p_fin" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox64UrFcEe25T5DOLUhIXg" name="p_pista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox64U7FcEe25T5DOLUhIXg" name="p_diaSemana" type="OID" collectionType="List" typeObject="_H1EIMKo7Ee24j6_kvUVfUA"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQMOQUEe2KfOXK_fnhkg" name="p_inicio" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQMeQUEe2KfOXK_fnhkg" name="p_fin" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQMuQUEe2KfOXK_fnhkg" name="p_pista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQM-QUEe2KfOXK_fnhkg" name="p_diaSemana" type="OID" collectionType="List" typeObject="_H1EIMKo7Ee24j6_kvUVfUA"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_v1Eq0ptQEe2Mt9ByTi-N7g" name="editar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox64VLFcEe25T5DOLUhIXg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox7fYLFcEe25T5DOLUhIXg" name="p_inicio" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox7fYbFcEe25T5DOLUhIXg" name="p_fin" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQNOQUEe2KfOXK_fnhkg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQNeQUEe2KfOXK_fnhkg" name="p_inicio" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQNuQUEe2KfOXK_fnhkg" name="p_fin" type="Time"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_v1FR4ZtQEe2Mt9ByTi-N7g" name="eliminar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox7fYrFcEe25T5DOLUhIXg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQN-QUEe2KfOXK_fnhkg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_wbBQgJtQEe2Mt9ByTi-N7g" name="obtener" operationType="ReadOID" type="Object" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Ox7fY7FcEe25T5DOLUhIXg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gwGQOOQUEe2KfOXK_fnhkg" name="p_Horario_OID" type="OID" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_wbB3kJtQEe2Mt9ByTi-N7g" name="listar" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g" filter="SELECT h FROM HorarioNH as h INNER JOIN h.Pista as p WHERE p.Idpista = :p_idPista" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_7Z1ugJtQEe2Mt9ByTi-N7g" name="p_idPista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
@@ -705,8 +705,8 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_PEW2cN3uEe2QPIrccFCuPg" name="listartodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_tBSUkJtQEe2Mt9ByTi-N7g"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_v1Eq0JtQEe2Mt9ByTi-N7g" alias="idhorario" name="idhorario" type="Autogenerated" isOID="true" isToken="true"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ADjEkJtREe2Mt9ByTi-N7g" alias="inicio" name="inicio" type="Date"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_CElvQJtREe2Mt9ByTi-N7g" alias="fin" name="fin" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ADjEkJtREe2Mt9ByTi-N7g" alias="inicio" name="inicio" type="Time"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_CElvQJtREe2Mt9ByTi-N7g" alias="fin" name="fin" type="Time"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_81e7MJtSEe2Mt9ByTi-N7g" alias="idPista" associationOrigin="_81dGAJtSEe2Mt9ByTi-N7g" name="pista" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_CDTkMKJUEe2oH5BJfVRY9g" alias="idReserva" lower="0" upper="*" associationTarget="_CCcBgKJUEe2oH5BJfVRY9g" name="reserva" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_h1ouIao7Ee24j6_kvUVfUA" alias="idDiaSemana" upper="*" associationTarget="_h1m48Ko7Ee24j6_kvUVfUA" name="diaSemana" type="Object" collectionType="List"/>
@@ -861,9 +861,9 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PbB2ML3SEe2uSOHjZNdSRA" name="p_Evento_OID" type="OID" typeObject="_rfgv8LBxEe21Y7T7I4A-og"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PbDrYL3SEe2uSOHjZNdSRA" name="p_usuarios_OIDs" type="OID" collectionType="List" typeObject="_nCu8QJpwEe2Mt9ByTi-N7g"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_k6XB0LObEe2HlrZKG1EcsQ" name="obtenereventospista" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_rfgv8LBxEe21Y7T7I4A-og" filter="FROM EventoNH as e INNER JOIN e.Horarios as h INNER JOIN h.DiaSemana as d where e.Activo AND h.Pista.Idpista = :p_idPista AND h.Inicio = :p_fecha AND d.Iddiasemana = :p_idDiaSemana" automaticSynchronize="false">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_k6XB0LObEe2HlrZKG1EcsQ" name="obtenereventospista" type="Object" collectionType="List" typeObject="_rfgv8LBxEe21Y7T7I4A-og" filter="FROM EventoNH as e INNER JOIN e.Horarios as h INNER JOIN h.DiaSemana as d where e.Activo AND h.Pista.Idpista = :p_idPista AND HOUR(TIME(h.Inicio)) = HOUR(TIME(:p_fecha)) AND MINUTE(TIME(h.Inicio)) = MINUTE(TIME(:p_fecha)) AND SECOND(TIME(h.Inicio)) = SECOND(TIME(:p_fecha)) AND d.Iddiasemana = :p_idDiaSemana" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_0-Nf8LObEe2HlrZKG1EcsQ" name="p_idPista" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IEROALOgEe2HlrZKG1EcsQ" name="p_fecha" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IEROALOgEe2HlrZKG1EcsQ" name="p_fecha" type="Time"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MBQ_ULOxEe2bNvW2Cha02Q" name="p_idDiaSemana" type="OID" typeObject="_H1EIMKo7Ee24j6_kvUVfUA"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_nsI58N3tEe2QPIrccFCuPg" name="listartodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_rfgv8LBxEe21Y7T7I4A-og"/>
@@ -3000,7 +3000,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_rfh-EbBxEe21Y7T7I4A-og"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_rfh-ErBxEe21Y7T7I4A-og" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_rfh-E7BxEe21Y7T7I4A-og" fillColor="12516090"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rfh-FLBxEe21Y7T7I4A-og" x="2325" y="110"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rfh-FLBxEe21Y7T7I4A-og" x="2220" y="85"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_Y5BuQLB3Ee21Y7T7I4A-og" type="2003" element="_Y4-q8LB3Ee21Y7T7I4A-og">
       <children xmi:type="notation:DecorationNode" xmi:id="_Y5BuRbB3Ee21Y7T7I4A-og" type="5005"/>
