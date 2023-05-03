@@ -188,6 +188,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_pP23cKffEe25aaAV6J6Mcw" name="p_deporte" type="OID" collectionType="List" typeObject="_E3gYQJtQEe2Mt9ByTi-N7g"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_8lUP0KrKEe24j6_kvUVfUA" name="p_ubicacion"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_y-cncLXnEe2CWplgDGGGpQ" name="p_visible" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_ZSwfkOngEe2z4_SbOs8ifQ" name="p_instalacion" type="OID" typeObject="_SPXOcJqFEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_LO5ygpp8Ee2Mt9ByTi-N7g" name="editar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_use1AKfbEe25aaAV6J6Mcw" name="p_Pista_OID" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
@@ -195,6 +196,9 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_usmJwKfbEe25aaAV6J6Mcw" name="p_maxreservas" type="Integer"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_lMJ7kKrLEe24j6_kvUVfUA" name="p_ubicacion"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_ARkqYLXoEe2CWplgDGGGpQ" name="p_visible" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_h5H4cOngEe2z4_SbOs8ifQ" name="p_estadosPista" type="OID" typeObject="_REc9sJqJEe2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_nEqwQOngEe2z4_SbOs8ifQ" name="p_deporte" type="OID" collectionType="List" typeObject="_E3gYQJtQEe2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_7ElbUOngEe2z4_SbOs8ifQ" name="p_instalacion" type="OID" typeObject="_SPXOcJqFEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_LO6ZkZp8Ee2Mt9ByTi-N7g" name="eliminar" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_cCMyocgFEe2eMPEROzSEjw" name="p_Pista_OID" type="OID" typeObject="_IzHFgJp8Ee2Mt9ByTi-N7g"/>
