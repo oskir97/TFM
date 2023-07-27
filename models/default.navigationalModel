@@ -685,6 +685,9 @@
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_Ox_W4BNeEe6XhuMRd2nmwg" name="fin">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_HIioEALdEe69DuGtyjQ2MQ"/>
       </navAttribute>
+      <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_qnxI4CyiEe6f0NGm2m6kQQ" name="imagen">
+        <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_x_3UoBalEe6Iz85GVZGNHQ"/>
+      </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_rfgv8LBxEe21Y7T7I4A-og"/>
       <AuthClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_nCu8QJpwEe2Mt9ByTi-N7g"/>
     </navigationalElem>
@@ -2307,6 +2310,10 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_Ox_W4xNeEe6XhuMRd2nmwg" type="5007"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ox_W4hNeEe6XhuMRd2nmwg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_qoHuMCyiEe6f0NGm2m6kQQ" type="3003" element="_qnxI4CyiEe6f0NGm2m6kQQ" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qoI8UCyiEe6f0NGm2m6kQQ" type="5007"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qoHuMSyiEe6f0NGm2m6kQQ"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_QHCoV8juEe2sPvna8E-tVg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_QHCoWMjuEe2sPvna8E-tVg"/>
       </children>
@@ -2443,7 +2450,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_QHCoUcjuEe2sPvna8E-tVg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_QHCoUsjuEe2sPvna8E-tVg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_QHCoU8juEe2sPvna8E-tVg" fillColor="12761756"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QHCoVMjuEe2sPvna8E-tVg" x="210" y="775" width="161" height="246"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QHCoVMjuEe2sPvna8E-tVg" x="210" y="790" width="161" height="406"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_1iCqMMjuEe2sPvna8E-tVg" type="2004" element="_1iAN8MjuEe2sPvna8E-tVg">
       <children xmi:type="notation:DecorationNode" xmi:id="_1iCqNcjuEe2sPvna8E-tVg" type="5004"/>
