@@ -152,6 +152,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_L1g2YBUZEe6Iz85GVZGNHQ" name="p_nivelpartido" type="Enum" typeEnum="_9frZQBUYEe6Iz85GVZGNHQ"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Owm0sBneEe6CgYb-yG85Rg" name="p_partido" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_tZ7EsB1-Ee6f7Pp4Ye1qkA" name="p_descripcion"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_F14e0C76Ee6KbLd44j86Qw" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_74hlwJp4Ee2Mt9ByTi-N7g" name="editar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_YTzL8PCOEe23Pfjtmqz7hA" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
@@ -166,19 +167,20 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pgaa0BUZEe6Iz85GVZGNHQ" name="p_nivelpartido" type="Enum" typeEnum="_9frZQBUYEe6Iz85GVZGNHQ"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_RwefIBneEe6CgYb-yG85Rg" name="p_partido" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_u7CSIB1-Ee6f7Pp4Ye1qkA" name="p_descripcion"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IWh2oC76Ee6KbLd44j86Qw" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_74hlwpp4Ee2Mt9ByTi-N7g" name="eliminar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_r3awIB1-Ee6f7Pp4Ye1qkA" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P7kVYC76Ee6KbLd44j86Qw" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_90AbAJp4Ee2Mt9ByTi-N7g" name="obtener" operationType="ReadOID" type="Object" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_r3bXMB1-Ee6f7Pp4Ye1qkA" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P7k8cC76Ee6KbLd44j86Qw" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_90BCEJp4Ee2Mt9ByTi-N7g" name="listar" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r INNER JOIN r.Pista as p INNER JOIN p.Entidad as e where e.Identidad = :p_identidad" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_gMOkMJqAEe2Mt9ByTi-N7g" name="p_identidad" type="OID" typeObject="_kjhNMJqDEe2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_i3SVEKu_Ee2EG7knZ9DIJw" name="inscribirsepartido" operationType="Relationer" type="Void" relatedRol="_lRgeUKvLEe2EG7knZ9DIJw" customizedTransaction="true">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_r3bXMR1-Ee6f7Pp4Ye1qkA" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_r3bXMh1-Ee6f7Pp4Ye1qkA" name="p_inscripciones_OIDs" type="OID" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P7ljgC76Ee6KbLd44j86Qw" name="p_Reserva_OID" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P7ljgS76Ee6KbLd44j86Qw" name="p_inscripciones_OIDs" type="OID" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_PqxgEKvDEe2EG7knZ9DIJw" name="listarreservasusuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g" filter="SELECT r FROM ReservaNH as r INNER JOIN r.Usuario as u WHERE u.Idusuario = :p_idusuario" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_U0aUkKvdEe2EG7knZ9DIJw" name="p_idusuario" type="OID" typeObject="_nCu8QJpwEe2Mt9ByTi-N7g"/>
@@ -239,6 +241,7 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_T4JucAMCEe69DuGtyjQ2MQ" alias="idEvento" lower="0" associationOrigin="_T4JHYAMCEe69DuGtyjQ2MQ" name="evento" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_7p0D0BUYEe6Iz85GVZGNHQ" alias="nivelpartido" lower="0" name="nivelpartido" type="Enum" typeEnum="_9frZQBUYEe6Iz85GVZGNHQ"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_pevokB1-Ee6f7Pp4Ye1qkA" alias="descripcionpartido" lower="0" name="descripcionpartido"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_-xOJQC75Ee6KbLd44j86Qw" length="10000000" alias="imagen" lower="0" name="imagen" type="Blob"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_MaFosJp7Ee2Mt9ByTi-N7g" name="reservas_usuario" alias="reserva_usuario" rolOrigin="_MaIE8Jp7Ee2Mt9ByTi-N7g" rolTarget="_MaIE8Zp7Ee2Mt9ByTi-N7g" classTarget="_0q7WoJp4Ee2Mt9ByTi-N7g" classOrigin="_nCu8QJpwEe2Mt9ByTi-N7g" rolOriginName="reservas" rolTargetName="usuario" rolOriginMultiplicity="0..*" rolTargetMultiplicity="0..1"/>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_IzHFgJp8Ee2Mt9ByTi-N7g" name="Pista" alias="Pista" asociationTarget="_xACccJp8Ee2Mt9ByTi-N7g _hyzjoJqEEe2Mt9ByTi-N7g _diGxMJqJEe2Mt9ByTi-N7g _ed5OkJqKEe2Mt9ByTi-N7g _81dGAJtSEe2Mt9ByTi-N7g _ODisYB9aEe6f7Pp4Ye1qkA" associationOrigin="_qq8hoJqHEe2Mt9ByTi-N7g _AgQR4JtVEe2Mt9ByTi-N7g">
@@ -1529,6 +1532,10 @@
         <children xmi:type="notation:Shape" xmi:id="_pfpAcB1-Ee6f7Pp4Ye1qkA" type="3003" element="_pevokB1-Ee6f7Pp4Ye1qkA" fontName="Segoe UI">
           <children xmi:type="notation:DecorationNode" xmi:id="_pfpAch1-Ee6f7Pp4Ye1qkA" type="5007"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfpAcR1-Ee6f7Pp4Ye1qkA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-yAzcC75Ee6KbLd44j86Qw" type="3003" element="_-xOJQC75Ee6KbLd44j86Qw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-yAzci75Ee6KbLd44j86Qw" type="5007"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-yAzcS75Ee6KbLd44j86Qw"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_0rAPIZp4Ee2Mt9ByTi-N7g"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_0rAPIpp4Ee2Mt9ByTi-N7g"/>
