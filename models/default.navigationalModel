@@ -438,6 +438,9 @@
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_fZFHkPM2Ee2A4c7ocoG05Q" name="longitud">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_tGWlUPM1Ee2A4c7ocoG05Q"/>
       </navAttribute>
+      <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_SXIBQDefEe6-t80VpvZeCg" name="email">
+        <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_-zY2MAz8Ee60qdv5JVKRQw"/>
+      </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_SPXOcJqFEe2Mt9ByTi-N7g"/>
       <AuthClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_nCu8QJpwEe2Mt9ByTi-N7g"/>
     </navigationalElem>
@@ -1909,6 +1912,10 @@
         <children xmi:type="notation:Shape" xmi:id="_fZFHkfM2Ee2A4c7ocoG05Q" type="3003" element="_fZFHkPM2Ee2A4c7ocoG05Q" fontName="Segoe UI">
           <children xmi:type="notation:DecorationNode" xmi:id="_fZFHk_M2Ee2A4c7ocoG05Q" type="5007"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fZFHkvM2Ee2A4c7ocoG05Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SXU1kDefEe6-t80VpvZeCg" type="3003" element="_SXIBQDefEe6-t80VpvZeCg" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_SXVcoDefEe6-t80VpvZeCg" type="5007"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SXU1kTefEe6-t80VpvZeCg"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_1GXNF8jpEe2sPvna8E-tVg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_1GXNGMjpEe2sPvna8E-tVg"/>

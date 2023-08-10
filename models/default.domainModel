@@ -444,6 +444,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_EgE5QLFVEe25T5DOLUhIXg" name="p_configuracion"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_v13fkPM1Ee2A4c7ocoG05Q" name="p_latitud" type="Double"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_yH0UEPM1Ee2A4c7ocoG05Q" name="p_longitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_F8N_wDefEe6-t80VpvZeCg" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_mE45UZqDEe2Mt9ByTi-N7g" name="editar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_7bY5-KozEe24j6_kvUVfUA" name="p_Entidad_OID" type="OID" typeObject="_kjhNMJqDEe2Mt9ByTi-N7g"/>
@@ -460,6 +461,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_K700sLFVEe25T5DOLUhIXg" name="p_configuracion"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_2cU2MPM1Ee2A4c7ocoG05Q" name="p_latitud" type="Double"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_4uEPUPM1Ee2A4c7ocoG05Q" name="p_longitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_H5ioEDefEe6-t80VpvZeCg" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_mE45U5qDEe2Mt9ByTi-N7g" name="eliminar" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xmsHsB9NEe6f7Pp4Ye1qkA" name="p_Entidad_OID" type="OID" typeObject="_kjhNMJqDEe2Mt9ByTi-N7g"/>
@@ -525,6 +527,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_qzxz0PM3Ee2A4c7ocoG05Q" name="p_provincia"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_r5uIMPM3Ee2A4c7ocoG05Q" name="p_telefonoalternativo"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_JuWH4Az9Ee60qdv5JVKRQw" name="p_email"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_2D5cMDeeEe6-t80VpvZeCg" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_U_wScJqFEe2Mt9ByTi-N7g" name="editar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_rsCQcqrIEe24j6_kvUVfUA" name="p_Instalacion_OID" type="OID" typeObject="_SPXOcJqFEe2Mt9ByTi-N7g"/>
@@ -539,6 +542,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_8xIcIPM1Ee2A4c7ocoG05Q" name="p_latitud" type="Double"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_-kda8PM1Ee2A4c7ocoG05Q" name="p_longitud" type="Double"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_LKFGEAz9Ee60qdv5JVKRQw" name="p_email"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_4dGIMDeeEe6-t80VpvZeCg" name="p_imagen" type="Blob"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_U_wScpqFEe2Mt9ByTi-N7g" name="eliminar" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_I-pwUAz9Ee60qdv5JVKRQw" name="p_Instalacion_OID" type="OID" typeObject="_SPXOcJqFEe2Mt9ByTi-N7g"/>
