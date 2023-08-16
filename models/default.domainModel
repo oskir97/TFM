@@ -205,6 +205,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_RLPkcALPEe69DuGtyjQ2MQ" name="deporte" type="OID" typeObject="_E3gYQJtQEe2Mt9ByTi-N7g"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_nHDmkALyEe69DuGtyjQ2MQ" name="orden"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_FPWV0AoEEe6Wr4jBCdv81Q" name="notClose" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_YuAAADwOEe6brLR_5FQnIw" name="level"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_PCdFgBNCEe6XhuMRd2nmwg" name="partidoDisponible" operationType="CustomTransaction" type="Boolean">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PCe6sBNCEe6XhuMRd2nmwg" name="p_oid" type="OID" typeObject="_0q7WoJp4Ee2Mt9ByTi-N7g"/>
